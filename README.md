@@ -11,13 +11,21 @@ Each [release](https://github.com/intelliscale/alphameta-releases/releases) incl
 
 ## Installation
 
-\`\`\`bash
-curl -fsSL https://github.com/intelliscale/alphameta-releases/releases/latest/download/alphameta-{version}-macos-arm64.tar.gz | tar xz
-sudo mv alphameta /usr/local/bin/
-\`\`\`
+```bash
+curl -fsSL https://alphameta.app/install.sh | bash
+```
 
-## Verification
+## Start
 
-\`\`\`bash
-shasum -a 256 -c checksums.txt
-\`\`\`
+```bash
+alphameta start
+```
+
+## Agent Skills
+
+After starting the server, use AlphaMeta via agent skills: [`alphameta-skills`](https://github.com/intelliscale/alphameta-skills)
+
+## License
+
+© 2026 Intelliscale Technologies, Inc. All rights reserved.
+
